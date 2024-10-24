@@ -4,6 +4,8 @@
   "private": true,
   "description": "A Strapi application",
   "scripts": {
+    "build:win": "cross-env NODE_ENV=production npm run build",
+    "start:win": "cross-env NODE_ENV=production npm start",
     "build": "strapi build",
     "deploy": "strapi deploy",
     "develop": "strapi develop",
@@ -16,14 +18,15 @@
     "@strapi/plugin-users-permissions": "5.1.1",
     "@strapi/strapi": "5.1.1",
     "better-sqlite3": "11.3.0",
+    "cross-env": "^7.0.3",
     "fs-extra": "^10.0.0",
     "mime-types": "^2.1.27",
+    "pg": "^8.13.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
     "styled-components": "^6.0.0"
   },
-  "devDependencies": {},
   "engines": {
     "node": ">=18.0.0 <=22.x.x",
     "npm": ">=6.0.0"
