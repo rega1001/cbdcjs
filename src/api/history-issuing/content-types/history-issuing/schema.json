@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "history_issuings",
+  "info": {
+    "singularName": "history-issuing",
+    "pluralName": "history-issuings",
+    "displayName": "History Issuing"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "issuing_intermediaries_id": {
+      "type": "integer"
+    }
+  }
+}

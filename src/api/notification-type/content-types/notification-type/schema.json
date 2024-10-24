@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "notification_types",
+  "info": {
+    "singularName": "notification-type",
+    "pluralName": "notification-types",
+    "displayName": "Notification Type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "notification_type_name": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_intermediaries",
+  "info": {
+    "singularName": "user-intermediary",
+    "pluralName": "user-intermediaries",
+    "displayName": "User Intermediary"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "password": {
+      "type": "password"
+    },
+    "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "biginteger"
+    },
+    "NIK": {
+      "type": "biginteger"
+    },
+    "users_permissions_users": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::users-permissions.user"
+    },
+    "bank_account": {
+      "type": "biginteger"
+    },
+    "bank_account_name": {
+      "type": "string"
+    },
+    "active_status": {
+      "type": "string"
+    },
+    "last_activity_ip": {
+      "type": "string"
+    },
+    "last_activity_date": {
+      "type": "datetime"
+    }
+  }
+}

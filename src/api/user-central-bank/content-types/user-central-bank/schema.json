@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_central_banks",
+  "info": {
+    "singularName": "user-central-bank",
+    "pluralName": "user-central-banks",
+    "displayName": "User Central Bank"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    },
+    "password": {
+      "type": "password"
+    },
+    "last_activity_ip": {
+      "type": "string"
+    },
+    "last_activity_date": {
+      "type": "datetime"
+    }
+  }
+}

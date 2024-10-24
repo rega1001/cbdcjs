@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "transactions",
+  "info": {
+    "singularName": "transaction",
+    "pluralName": "transactions",
+    "displayName": "Transaction"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "issuing_intermediaries_id": {
+      "type": "integer"
+    },
+    "from_account": {
+      "type": "string"
+    },
+    "to_account": {
+      "type": "string"
+    },
+    "transaction_date": {
+      "type": "datetime"
+    },
+    "nominal": {
+      "type": "integer"
+    },
+    "status_transactions": {
+      "type": "boolean"
+    }
+  }
+}

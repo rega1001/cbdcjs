@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "issuing_intermediaries",
+  "info": {
+    "singularName": "issuing-intermediary",
+    "pluralName": "issuing-intermediaries",
+    "displayName": "Issuing Intermediary"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user_intermediaries_id": {
+      "type": "integer"
+    },
+    "issuing_intermediaries_name": {
+      "type": "string"
+    },
+    "point": {
+      "type": "string"
+    },
+    "saldo": {
+      "type": "string"
+    },
+    "redeem": {
+      "type": "integer"
+    },
+    "log_activity_ip": {
+      "type": "string"
+    },
+    "log_activity_date": {
+      "type": "datetime"
+    }
+  }
+}

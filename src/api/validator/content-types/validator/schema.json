@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "validators",
+  "info": {
+    "singularName": "validator",
+    "pluralName": "validators",
+    "displayName": "Validator"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user_intermediaries_id": {
+      "type": "integer"
+    }
+  }
+}

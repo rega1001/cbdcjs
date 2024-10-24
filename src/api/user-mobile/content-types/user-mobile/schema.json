@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_mobiles",
+  "info": {
+    "singularName": "user-mobile",
+    "pluralName": "user-mobiles",
+    "displayName": "User Mobile"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "password": {
+      "type": "password"
+    },
+    "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "biginteger"
+    },
+    "NIK": {
+      "type": "biginteger"
+    },
+    "role": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "bank_account": {
+      "type": "biginteger"
+    },
+    "bank_account_name": {
+      "type": "string"
+    },
+    "is_intermediaries": {
+      "type": "boolean"
+    },
+    "log_activity_ip": {
+      "type": "string"
+    },
+    "log_activity_date": {
+      "type": "datetime"
+    }
+  }
+}

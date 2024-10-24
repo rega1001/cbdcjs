@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "notifications",
+  "info": {
+    "singularName": "notification",
+    "pluralName": "notifications",
+    "displayName": "Notification"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "notification_type_id": {
+      "type": "integer"
+    },
+    "message": {
+      "type": "blocks"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "read_status": {
+      "type": "string"
+    }
+  }
+}

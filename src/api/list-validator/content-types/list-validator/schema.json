@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "list_validators",
+  "info": {
+    "singularName": "list-validator",
+    "pluralName": "list-validators",
+    "displayName": "List Validator"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "token_id": {
+      "type": "integer"
+    },
+    "issuing_intermediaries_id": {
+      "type": "integer"
+    },
+    "issuing_intermediaries_name": {
+      "type": "string"
+    },
+    "log_activity_ip": {
+      "type": "string"
+    },
+    "log_activity_date": {
+      "type": "datetime"
+    }
+  }
+}
